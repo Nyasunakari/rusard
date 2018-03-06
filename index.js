@@ -1,11 +1,11 @@
 /* jshint esversion:6*/
 
 //For discord
-var Discord = require('discord.js'),
-    fs = require('fs'),
-    client = new Discord.Client(),
-    config = loadJSON(__dirname + '/JSON/config.json'),
-    points = loadJSON(__dirname + '/JSON/points.json');
+const Discord = require('discord.js');
+const fs = require('fs');
+const client = new Discord.Client();
+const config = loadJSON(__dirname + '/JSON/config.json');
+const points = loadJSON(__dirname + '/JSON/points.json');
 
 //Loads a JSON file
 function loadJSON(dir) {
