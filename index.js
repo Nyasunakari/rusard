@@ -175,7 +175,7 @@ function housePointsFunc(args) {
         args.send(house.capitalize() + ' à ' + points[house] + ' point(s)!');
     } else if ((firstParam === 'add' || firstParam === 'increase' || firstParam === '+' || firstParam === 'donne') && canDonnePoints === true) {
         if (isNaN(args.params[1]) || args.params[1] === 'Infinity' || args.params[1] === '-Infinity') {
-            args.send(' ' + args.params[1] + ' n'est pas un nombre !');
+            args.send(' ' + args.params[1] + ' : Nombre seulement !');
         } else {
             points[house] += Number(args.params[1]);
             if (points[house] < 0) {
