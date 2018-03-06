@@ -186,7 +186,7 @@ function housePointsFunc(args) {
         }
     } else if ((firstParam === 'subtract' || firstParam === 'sub' || firstParam === 'decrease' || firstParam === '-' || firstParam === 'prend') && canPrendPoints === true) {
         if (isNaN(args.params[1]) || args.params[1] === 'Infinity' || args.params[1] === '-Infinity') {
-            args.send(' ' + args.params[1] + ' n'est pas un nombre !');
+            args.send(' ' + args.params[1] + ' : Nombre seulement !');
         } else {
             points[house] -= Number(args.params[1]);
             if (points[house] < 0) {
@@ -197,7 +197,7 @@ function housePointsFunc(args) {
         }
     } else if ((firstParam === 'set' || firstParam === 'setas') && canSetPoints === true) {
         if (isNaN(args.params[1]) || args.params[1] === 'Infinity' || args.params[1] === '-Infinity') {
-            args.send(' ' + args.params[1] + ' n'est pas un nombre !');
+            args.send(' ' + args.params[1] + ' : Nombre seulement !');
         } else {
             points[house] = Number(args.params[1]);
             if (points[house] < 0) {
