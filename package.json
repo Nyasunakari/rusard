@@ -1,5 +1,5 @@
 {
-    "name": "Concierge Rusar",
+    "name": "rusar",
     "version": "1.0.0",
     "description": "Bot de gestion des points des maisons",
     "main": "index.js",
