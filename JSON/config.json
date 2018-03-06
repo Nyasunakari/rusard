@@ -1,0 +1,18 @@
+{
+    "commandsBegin": "/",
+    "botName": "Charge des points à Poudlard",
+    "roles": {
+        "prendPoints": [
+            "can-take-points"
+        ],
+        "setPoints": [
+            "can-set-points"
+        ],
+        "donnePoints": [
+            "can-give-points"
+        ],
+        "doAllOfTheAbove": [
+            "can-edit-points"
+        ]
+    }
+}

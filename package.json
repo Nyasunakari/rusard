@@ -1,0 +1,14 @@
+{
+    "name": "Concierge Rusar",
+    "version": "1.0.0",
+    "description": "Bot de gestion des points des maisons",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Erreur de Test\" && exit 1"
+    },
+    "author": "Nyasunakari",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^11.0.0"
+    }
+}
